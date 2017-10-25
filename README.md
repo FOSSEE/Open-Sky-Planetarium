@@ -1,9 +1,7 @@
 OpenSkyPlanetarium plugin for Stellarium
-
-Low cost hardware and open source software setup for planetariums in schools.
 =====================================
-
-Plugin for controlling the Arduino-Based Laser and Stellarium to create Planetarium shows.
+It is a low cost hardware and open source software setup for planetariums in schools.
+This repository contains the plugin for controlling the Arduino-Based Laser and Stellarium to create Planetarium shows.
 
 
 BUILDING THE PLUGIN
@@ -33,7 +31,4 @@ source tree.  The Stellarium build directory is expected to be:
 
 If all goes well, the relevant files should be built and copied to your 
 ~/.stellarium/modules directory.
-
-
-======= 
 
