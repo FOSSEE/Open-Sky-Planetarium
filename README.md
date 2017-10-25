@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 OpenSkyPlanetarium plugin for Stellarium
+
 Low cost hardware and open source software setup for planetariums in schools.
 =====================================
 
