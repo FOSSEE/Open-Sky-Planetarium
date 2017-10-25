@@ -1,0 +1,12 @@
+This code is meant to test NEMA 17 motors with 2DM542 (microstep driver). The connections are as under:
+
+1. The pins A+ A- B+ and B- are connected with the four pins of NEMA17. 
+2. V+ and GND are connected to 24V power supply terminals. GND is shorted with the GND of Arduino. 
+3. ENA- DIR- and PLS- are connected to GND of Arduino.
+4. PLS+ --> D10 of Arduino.
+5. DIR+ --> D11 of Arduino.
+6. ENA+ --> D12 of Arduino. 
+7. RS232 pins were completely OFF.
+8. The swicthes on the driver were adjusted for 3200 steps per revolution and 1A current supply. 
+
+This code makes the two motors NEMA 17 run only once for 180 degrees (one after another). 
